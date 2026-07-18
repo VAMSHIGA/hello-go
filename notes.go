@@ -10,7 +10,10 @@ func main(){
 		fmt.Println("invalid amount")
 		return
 	}
-
+	if amount<0{
+		fmt.Println("invalid amount")
+		return
+	}
 	hundred:=amount/100
 	twohundred:=0
 	fivehundered:=0
